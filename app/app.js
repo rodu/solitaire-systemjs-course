@@ -1,5 +1,6 @@
-(function () {
-  "use strict";
 
-  angular.module("solitaire", ["klondike", "ngDraggable"]);
-})();
+angular.module("solitaire", ["klondike", "ngDraggable"]);
+
+angular.element(document).ready(function () {
+  angular.bootstrap(document, ['solitaire']);
+});
