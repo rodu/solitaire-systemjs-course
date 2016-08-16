@@ -1,12 +1,10 @@
 {
-  "globals": {
-    "angular": false,
-    "_": false
+  "parserOptions": {
+    "ecmaVersion": 6
   },
-  "rules": {
-    "no-use-before-define": [
-      2,
-      "nofunc"
-    ]
-  }
+  "env": {
+    "browser": true,
+    "node": false
+  },
+  "ecmaFeatures": { modules: true }
 }
